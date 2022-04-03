@@ -2,7 +2,7 @@ const app=require("./index")
 
 const connect=require("./configs/db");
 
-app.listen(5000, async(req,res)=>{
+app.listen(5001, async(req,res)=>{
 try{
     await connect();
     console.log("listening to port 5000");

@@ -1,0 +1,131 @@
+/*header css*/
+
+#top_header{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#store_contact {
+    display: flex;
+    flex: 2;
+    margin: 20px 10px 20px 10px;
+}
+#home_logo{
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+#page_logo{
+    margin-top: 2px;
+    width: 25px;  
+}
+#search_btn{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+#name_logo{
+    width: 50vh;
+    height: 50px;
+    margin-top: 8px;
+}
+#input_bar{
+    display: flex;
+    border-bottom: 1px solid #333;
+}
+#right_head{
+    display: flex;
+    flex: 3;
+    margin: 20px 10px 10px 10px;
+}
+#search_bar{
+    width: 350px;
+    border: none;
+}
+#input_bar:hover{
+border-bottom-color: #3f37c9;
+}
+#contact_a ,#store_a{
+    display: flex;
+    margin-left: 20px;
+   
+}
+#contact_a>p ,#store_a>p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+
+}
+#right_head>div{
+    margin-left: 20px;
+}
+#sub_header{
+    display: flex;
+    margin: 0px 50px 0px 50px;
+}
+#sub_header>div{
+    flex: 1;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+font-size: 14px;
+font-weight: bold;
+color: #333;
+box-sizing: border-box;
+border-bottom: 2px solid white;
+}
+#cat_p{
+    font-size: 15px;
+font-weight: bold;
+color: #333;
+}
+#sub_header>div:hover{
+    color: #f94144;
+    border-bottom-color:#f94144 ;
+}
+#sub_header>div:hover>p{
+    color: #f94144;
+    border-bottom-color:#f94144 ;
+}
+
+
+
+*{
+    font: 1em sans-serif;
+    color: #777;
+}
+
+
+
+@media screen and (min-width:721px) and (max-width:1000px){
+    #top_header,#sub_header{
+        margin-left: 10px;
+        margin-right: 10px
+    } 
+    #search_bar{
+        width: 0%;
+    }
+    
+   
+    #name_logo{
+        width: 80%;
+    } 
+} 
+
+@media screen  and (min-width:0px)and (max-width:720px){
+
+    #top_header,#sub_header{
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    #search_bar{
+        width: 0%;
+    }
+    #sub_header>a{
+        font-size: 10px;
+    }
+    #name_logo{
+        width: 70%;
+    } 
+    
+
+}
